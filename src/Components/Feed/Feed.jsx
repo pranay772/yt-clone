@@ -3,7 +3,7 @@ import './Feed.css';
 import { Link } from 'react-router-dom';
 import { API_KEY, value_converter } from '../../data';
 import moment from 'moment';
-import Pagination from '../Pagination/pagination.jsx';
+import Pagination from '../Pagination/Pagination.jsx';
 
 const Feed = ({ category }) => {
   const [data, setData] = useState([]);
